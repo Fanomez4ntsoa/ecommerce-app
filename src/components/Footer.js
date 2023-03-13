@@ -42,16 +42,16 @@ function Footer() {
                 <a href='tel: +261 38 79 205 85' className='mt-4 d-block mb-3 text-white'> +261 38 79 205 85 </a>
                 <a href='mailto:eTsena_Mada@gmail.mg' className='mt-2 d-block mb-0 text-white'> eTsena.Mada@gmail.mg </a>
                 <div className='social_icons d-flex align-items-center gap-30 mt-4'>
-                  <a className='text-white' href='' alt='social_icons'>
+                  <a className='text-white' href='https://www.linkedin.com/' alt='social_icons'>
                     <BsLinkedin></BsLinkedin>
                   </a>
-                  <a className='text-white' href='' alt='social_icons'>
+                  <a className='text-white' href='https://www.facebook.com/' alt='social_icons'>
                     <BsFacebook></BsFacebook>
                   </a>
-                  <a className='text-white' href='' alt='social_icons'>
+                  <a className='text-white' href='https://www.instagram.com/' alt='social_icons'>
                     <BsInstagram></BsInstagram>
                   </a>
-                  <a className='text-white' href='' alt='social_icons'>
+                  <a className='text-white' href='https://www.gmail.com/' alt='social_icons'>
                     <SiGmail></SiGmail>
                   </a>
                 </div>
