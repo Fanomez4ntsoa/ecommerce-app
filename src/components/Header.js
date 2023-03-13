@@ -87,18 +87,19 @@ function Header() {
                 <div>
                   <div className="dropdown">
                     <button 
-                      className="btn btn-secondary dropdown-toggle bg-transparent border-0" 
+                      className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center" 
                       type="button" 
                       id="dropdownMenuButton1" 
                       data-bs-toggle="dropdown" 
                       aria-expanded="false"
                     >
-                      Shop Categories
+                      <img src='images/menu.svg' alt='menu'/>
+                      <span className='me-5 d-inline-block'> Shop categories </span>
                     </button>
                     <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><Link class="dropdown-item text-white" to="">Action</Link></li>
+                      <li><Link class="dropdown-item text-white" to="">Another action</Link></li>
+                      <li><Link class="dropdown-item text-white" to="">Something else here</Link></li>
                     </ul>
                   </div>
                 </div>
