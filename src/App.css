@@ -40,10 +40,10 @@ a {
 .header-bottom {
   background-color: var(--color-232f3e);
 }
-.header-upper.input-group-text {
+.header-upper .input-group-text {
   background-color: var(--color-febd69);
 }
-.header-upper.header-upper-links img {
+.header-upper .header-upper-links img {
  width: 35px;
  height: 35px;
 }
@@ -72,4 +72,17 @@ a {
 .header-bottom .dropdown-item:hover {
   background-color: transparent;
   color: var(--color-febd69) !important;
+}
+
+/* Footer */
+footer {
+  background-color: var(--color-232f3e);
+}
+footer:not(:first-child) {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer .input-group-text {
+  background-color: var(--color-232f3e);
+  color: white;
+  padding: 8px 17px;
 }
